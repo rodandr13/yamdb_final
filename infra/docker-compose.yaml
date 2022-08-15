@@ -9,7 +9,7 @@ services:
       - ./.env
 
   web:
-    image: andr13/api_yamdb:v1.1
+    image: andr13/api_yamdb:latest
     restart: always
     volumes:
       - static_value:/app/static/
